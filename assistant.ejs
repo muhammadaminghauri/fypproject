@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/public/images/css/dashboard.css">
+
+
+
+<body> <form action="assistant" method="post" >
+	<div class="col-md-4 col-md-offset-4">
+		<div>
+			<p>Profile Detail</p>
+		</div>
+
+	<li><a href="">Home</a><li><a href="">login as Patient</a></li>
+	<li><a href="/appointment">Click for appointment</a></li>
+	<li>	<a href="/logout">Logout</a></li>
+
+	</ul>
+	</div>
+		  </div>
+		<div>
+			<center>
+				<table class="table table-hover text-center">
+                    <tr><td>Name </td><td><%= patientname %></td></tr>
+					<tr><td>age </td><td><%= age %></td></tr>
+					<tr><td>problem </td><td><%= problems %></td></tr>
+					<tr><td>issues </td><td><%= issues %></td></tr>
+					<tr><td>facingproblems </td><td><%= facingproblems %></td></tr>
+				</table>
+			</center>
+		</div>
+
+	</div>
+</form>
+  </body>
+  
+</body>
+</html>
